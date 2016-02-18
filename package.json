@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/seanvillalta/final-project/issues"
   },
-  "homepage": "https://github.com/seanvillalta/final-project#readme"
+  "homepage": "https://github.com/seanvillalta/final-project#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.0",
+    "normalize": "^0.3.1"
+  }
 }
