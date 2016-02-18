@@ -1,0 +1,19 @@
+{
+  "name": "final-project",
+  "version": "1.0.0",
+  "description": "Emerging Technologies Final Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanvillalta/final-project.git"
+  },
+  "author": "Sean, Tommy, Jay and Jenny",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seanvillalta/final-project/issues"
+  },
+  "homepage": "https://github.com/seanvillalta/final-project#readme"
+}
