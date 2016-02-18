@@ -1,0 +1,23 @@
+{
+  "name": "final-project",
+  "description": "Emerging Technologies Final Project",
+  "main": "index.js",
+  "authors": [
+    "Sean",
+    "Tommy",
+    "Jay and Jenny"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/seanvillalta/final-project",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "fontawesome#^4.5.0"
+  }
+}
