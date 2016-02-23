@@ -149,7 +149,7 @@ aside h2.since1973 {
 /* MAIN NAV */
 nav {
   height: 72px;
-  background: #666666 url(../img/header_bg.png) no-repeat;
+  background: #666666 url("../images/nav-bkg.jpg") repeat-x;
   margin-top: -13px; }
 
 nav ul li {
