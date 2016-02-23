@@ -32,6 +32,46 @@ img.img-responsive {
   width: 100%;
   height: auto; }
 
+/* ARTICLE MODULE */
+ul.side-nav {
+  margin-left: -40px;
+  margin-top: 20px; }
+
+ul.side-nav li {
+  background: orange;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(orange, #f59211);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(orange, #f59211);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(orange, #f59211);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(orange, #f59211);
+  /* Standard syntax (must be last) */
+  padding: 10px;
+  margin-bottom: 1px; }
+
+ul.side-nav li a {
+  color: #ffffff;
+  font-size: 16px; }
+
+/* ASIDE MODULE */
+h2.get-involved-sidebar-heading {
+  margin-top: 115px;
+  font-size: 18px;
+  color: #337ab7; }
+
+h2.success-stories-sidebar-heading {
+  font-size: 18px;
+  color: #337ab7; }
+
+.sidebar-background {
+  box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 0px; }
+
+.bottom-donate-button {
+  margin-bottom: 20px; }
+
 /* For image replacement */
 .ir {
   display: block;
@@ -236,29 +276,6 @@ hr.article-hr {
 .authorText {
   color: #e4e2e3; }
 
-/* ARTICLE MODULE */
-ul.side-nav {
-  margin-left: -40px;
-  margin-top: 20px; }
-
-ul.side-nav li {
-  background: orange;
-  /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(orange, #f59211);
-  /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(orange, #f59211);
-  /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(orange, #f59211);
-  /* For Firefox 3.6 to 15 */
-  background: linear-gradient(orange, #f59211);
-  /* Standard syntax (must be last) */
-  padding: 10px;
-  margin-bottom: 1px; }
-
-ul.side-nav li a {
-  color: #ffffff;
-  font-size: 16px; }
-
 /* ASIDE */
 aside {
   width: 291px;
@@ -277,23 +294,6 @@ aside h2.since1973 {
 .aside-box img {
   float: right;
   margin-top: 8px; }
-
-/* ASIDE MODULE */
-h2.get-involved-sidebar-heading {
-  margin-top: 115px;
-  font-size: 18px;
-  color: #337ab7; }
-
-h2.success-stories-sidebar-heading {
-  font-size: 18px;
-  color: #337ab7; }
-
-.sidebar-background {
-  box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.2);
-  padding: 0px; }
-
-.bottom-donate-button {
-  margin-bottom: 20px; }
 
 /* MAIN CONTENT */
 .main-content {
