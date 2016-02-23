@@ -147,6 +147,11 @@ aside h2.since1973 {
     position: inherit;
 }
 
+.aside-box img {
+    float: right;
+    margin-top: 8px;
+}
+
 /* MAIN CONTENT */
 
 .main-content {
@@ -401,23 +406,6 @@ h2.get-involved-sidebar-heading {
 h2.success-stories-sidebar-heading {
     font-size: 18px;
     color: #337ab7;
-}
-
-aside {
-    float: right;
-    height: 294px;
-}
-
-aside h2.since1973 {
-    height: 42px;
-    margin: 16px 10px 0 140px;
-    padding: 10px;
-    position: inherit;
-}
-
-.aside-box img {
-    float: right;
-    margin-top: 8px;
 }
 
 .sidebar-background {
