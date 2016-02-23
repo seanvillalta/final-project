@@ -9,33 +9,20 @@
 @import "modules";
 @import "states";
 @import "theme";
+
+
 // CSS to place into divisions above
 
-/**
- * Primary styles
- *
- * Author: PEH2
- */
 
-
-/* color scheme */
-
-
-/* http://haslayout.net/css-tuts/Removing-Dotted-Border-on-Clicked-Links ie9 dotted lines */
+/* BASE STYLES */
 
 a {
     outline: 0;
 }
 
-
-/* Disable Highlight border focused on form controls in chrome, safari, android and iPhone browser  */
-
 *:focus {
     outline: none;
 }
-
-
-/* box sizing will save your life */
 
 * {
     -moz-box-sizing: border-box;
@@ -62,6 +49,12 @@ h1 {
 
 h2 {
     font-size: 24px;
+}
+
+img.facebook-module,
+img.img-responsive {
+    width: 100%;
+    height: auto;
 }
 
 /* ARTICLE */ 
@@ -129,6 +122,41 @@ hr.article-hr {
     background: none;
 }
 
+.dateText {
+    color: #f99b15;
+}
+
+.authorText {
+    color: #e4e2e3;
+}
+
+/* ARTICLE MODULE */
+
+ul.side-nav {
+    margin-left: -40px;
+    margin-top: 20px;
+}
+
+ul.side-nav li {
+    background: orange;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(orange, #f59211);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(orange, #f59211);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(orange, #f59211);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(orange, #f59211);
+    /* Standard syntax (must be last) */
+    padding: 10px;
+    margin-bottom: 1px;
+}
+
+ul.side-nav li a {
+    color: #ffffff;
+    font-size: 16px;
+}
+
 /* ASIDE */
 
 aside {
@@ -150,6 +178,28 @@ aside h2.since1973 {
 .aside-box img {
     float: right;
     margin-top: 8px;
+}
+
+/* ASIDE MODULE */
+
+h2.get-involved-sidebar-heading {
+    margin-top: 115px;
+    font-size: 18px;
+    color: #337ab7;
+}
+
+h2.success-stories-sidebar-heading {
+    font-size: 18px;
+    color: #337ab7;
+}
+
+.sidebar-background {
+    box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 0px;
+}
+
+.bottom-donate-button {
+    margin-bottom: 20px;
 }
 
 /* MAIN CONTENT */
@@ -351,71 +401,7 @@ header .logo {
     width: 25px;
 }
 
-/* ????? */
-
-
 /* FOOTER */
-
-
-
-ul.side-nav {
-    margin-left: -40px;
-    margin-top: 20px;
-}
-
-ul.side-nav li {
-    background: orange;
-    /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(orange, #f59211);
-    /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(orange, #f59211);
-    /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(orange, #f59211);
-    /* For Firefox 3.6 to 15 */
-    background: linear-gradient(orange, #f59211);
-    /* Standard syntax (must be last) */
-    padding: 10px;
-    margin-bottom: 1px;
-}
-
-ul.side-nav li a {
-    color: #ffffff;
-    font-size: 16px;
-}
-
-.dateText {
-    color: #f99b15;
-}
-
-.authorText {
-    color: #e4e2e3;
-}
-
-img.facebook-module,
-img.img-responsive {
-    width: 100%;
-    height: auto;
-}
-
-h2.get-involved-sidebar-heading {
-    margin-top: 115px;
-    font-size: 18px;
-    color: #337ab7;
-}
-
-h2.success-stories-sidebar-heading {
-    font-size: 18px;
-    color: #337ab7;
-}
-
-.sidebar-background {
-    box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.2);
-    padding: 0px;
-}
-
-.bottom-donate-button {
-    margin-bottom: 20px;
-}
 
 footer {
     text-align: center;
@@ -541,6 +527,8 @@ footer section.cert-logos-spacing {
     margin-top: 0;
     position: relative;
 }
+
+/* BOTTOM WELL */
 
 .bottom-well-margin {
     margin-top: 0px;
