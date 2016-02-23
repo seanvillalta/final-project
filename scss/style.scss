@@ -265,37 +265,6 @@ header {
     background-color: #666666;
 }
 
-header x .misc-items {
-    height: 56px;
-    background-color: #0c2745;
-    position: relative;
-}
-
-header .search-container {
-    position: absolute;
-    top: 13px;
-    left: 485px;
-    background: transparent url(../img/bg_box.png) no-repeat;
-    width: 258px;
-    height: 37px;
-}
-
-header .search-container .search-input {
-    background-color: transparent;
-    border: medium none;
-    color: #999999;
-    float: left;
-    font-size: 0.9em;
-    height: auto;
-    margin: 10px 5px 0 28px;
-    width: 185px;
-}
-
-header .search-container .search-submit {
-    margin: 5px 0 0 10px;
-    width: 25px;
-}
-
 header .facebook-icon {
     padding: 9px 10px 0 15px;
 }
