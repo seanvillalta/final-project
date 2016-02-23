@@ -11,3 +11,773 @@
 @import "modules";
 @import "states";
 @import "theme";
+
+// CSS to place into divisions above
+
+/**
+ * Primary styles
+ *
+ * Author: PEH2
+ */
+/* color scheme */
+/* http://haslayout.net/css-tuts/Removing-Dotted-Border-on-Clicked-Links ie9 dotted lines */
+a {
+  outline: 0; }
+
+/* Disable Highlight border focused on form controls in chrome, safari, android and iPhone browser  */
+*:focus {
+  outline: none; }
+
+/* box sizing will save your life */
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  /*background: #233e5f url(../img/body_bg_grad.jpg) repeat-x;*/
+  position: relative;
+  top: -10px;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  background-color: #233e5f;
+  background-image: -webkit-linear-gradient(bottom, #233e5f, #1c2836);
+  background-image: linear-gradient(to top,#233e5f, #1c2836); }
+
+li {
+  font-size: 11px; }
+
+h1 {
+  font-size: 26px; }
+
+h2 {
+  font-size: 24px; }
+
+article.facebook-entry {
+  background: #2b2b2b url(../img/bg_facebook_post.png) no-repeat;
+  width: 297px;
+  height: 321px;
+  float: right;
+  margin-top: 5px; }
+  article.facebook-entry h3 {
+    background: #ffffff url(../img/header_facebook.png) no-repeat;
+    width: 293px;
+    height: 43px;
+    margin-top: 50px; }
+  article.facebook-entry h4 {
+    color: #282424;
+    padding-left: 30px;
+    padding-top: 5px; }
+  article.facebook-entry h5 {
+    color: #f9a634;
+    padding-left: 30px;
+    padding-top: 10px; }
+    article.facebook-entry h5 span {
+      color: #c2c1c0; }
+  article.facebook-entry p {
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 11px;
+    padding-right: 30px; }
+
+aside {
+  width: 291px;
+  margin-right: 12px;
+  float: right;
+  height: 294px; }
+  aside h2.since1973 {
+    background: transparent url(../img/heading_since_1973.png) no-repeat;
+    width: 152px;
+    height: 42px;
+    margin: 16px 10px 0 140px;
+    padding: 10px;
+    position: inherit; }
+
+.main-content {
+  float: left;
+  background-color: #ffffff;
+  line-height: 1.4em; }
+  .main-content .colOne {
+    width: 290px;
+    float: left;
+    padding-left: 30px; }
+  .main-content .colTwo {
+    width: 290px;
+    float: left;
+    padding-left: 25px; }
+  .main-content p {
+    padding: 10px 0; }
+
+/* TOP NAV */
+.top-nav {
+  font-size: .9em;
+  padding-left: 125px;
+  width: 347px; }
+  .top-nav li {
+    padding-top: 25px;
+    float: left; }
+  .top-nav span {
+    padding: 0 10px; }
+  .top-nav a {
+    color: #ffffff;
+    text-decoration: none; }
+
+/* MAIN NAV */
+nav {
+  height: 72px;
+  background: #666666 url(../img/header_bg.png) no-repeat;
+  margin-top: -13px; }
+  nav ul li {
+    list-style: none;
+    color: #ffffff; }
+  nav ul {
+    font-size: 11px; }
+  nav .nav-home a {
+    position: absolute;
+    left: 105px;
+    top: 70px;
+    display: block;
+    width: 100px;
+    padding: 10px;
+    text-align: center; }
+  nav .nav-about a {
+    position: absolute;
+    left: 240px;
+    top: 70px;
+    display: block;
+    width: 100px;
+    padding: 10px;
+    text-align: center; }
+  nav .nav-service a {
+    position: absolute;
+    left: 385px;
+    top: 70px;
+    display: block;
+    width: 100px;
+    padding: 10px;
+    text-align: center; }
+  nav .nav-addict a {
+    position: absolute;
+    left: 505px;
+    top: 70px;
+    display: block;
+    width: 160px;
+    padding: 10px;
+    text-align: center; }
+    .ie9 nav .nav-addict a {
+      left: 535px; }
+  nav .nav-appoint a {
+    position: absolute;
+    left: 655px;
+    top: 70px;
+    display: block;
+    width: 150px;
+    padding: 10px;
+    text-align: center; }
+    .ie9 nav .nav-appoint a {
+      left: 673px; }
+  nav .nav-contact a {
+    position: absolute;
+    left: 790px;
+    top: 70px;
+    display: block;
+    width: 150px;
+    padding: 10px;
+    text-align: center; }
+  nav a {
+    color: #515152;
+    text-decoration: none;
+    display: block; }
+    nav a:hover {
+      color: #515152;
+      letter-spacing: 0; }
+
+/*
+nav {
+    height: 72px;
+    background: #666666 url(../img/header_bg.png) repeat;
+    margin-top: -13px;
+}
+
+nav ul li {
+    list-style: none;
+    color: #ffffff;
+}
+
+nav ul {
+    font-size: 11px;
+}
+
+nav .nav-home a {
+    position: absolute;
+    left: 115px;
+    top: 70px;
+    display: block;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+}
+
+nav .nav-about a {
+    position: absolute;
+    left: 252px;
+    top: 70px;
+    display: block;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+}
+
+nav .nav-service a {
+    position: absolute;
+    left: 396px;
+    top: 70px;
+    display: block;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+}
+
+nav .nav-addict a {
+    position: absolute;
+    left: 513px;
+    top: 70px;
+    display: block;
+    width: 160px;
+    padding: 10px;
+    text-align: center;
+}
+*/
+header {
+  position: relative;
+  background-color: #666666; }
+  header x
+  .misc-items {
+    height: 56px;
+    background-color: #0c2745;
+    position: relative; }
+  header .search-container {
+    position: absolute;
+    top: 13px;
+    left: 485px;
+    background: transparent url(../img/bg_box.png) no-repeat;
+    width: 258px;
+    height: 37px; }
+    header .search-container .search-input {
+      background-color: transparent;
+      border: medium none;
+      color: #999999;
+      float: left;
+      font-size: 0.9em;
+      height: auto;
+      margin: 10px 5px 0 28px;
+      width: 185px; }
+    header .search-container .search-submit {
+      margin: 5px 0 0 10px;
+      width: 25px; }
+  header .facebook-icon {
+    padding: 9px 10px 0 15px; }
+  header .donate {
+    position: absolute;
+    top: 17px;
+    right: 0; }
+  header .logo {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    z-index: 99; }
+
+.misc-items {
+  height: 56px;
+  background-color: #0c2745;
+  position: relative; }
+
+.search-container {
+  position: absolute;
+  top: 13px;
+  left: 485px;
+  background: transparent url(../img/bg_box.png) no-repeat;
+  width: 258px;
+  height: 37px; }
+  .search-container .search-input {
+    background-color: transparent;
+    border: medium none;
+    color: #999999;
+    float: left;
+    font-size: 0.9em;
+    height: auto;
+    margin: 10px 5px 0 28px;
+    width: 185px; }
+  .search-container .search-submit {
+    margin: 5px 0 0 10px;
+    width: 25px; }
+
+.facebook-icon {
+  padding: 9px 10px 0 15px;
+  margin-top: 10px; }
+
+.donate {
+  position: absolute;
+  top: 17px;
+  right: 0; }
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  z-index: 99; }
+
+article.facebook-entry {
+  background: #ffffff url(../img/bg_facebook_post.png) no-repeat;
+  height: 321px;
+  float: right;
+  margin-top: 5px; }
+
+article.facebook-entry h3 {
+  background: #ffffff url(../img/header_facebook.png) no-repeat;
+  width: 293px;
+  height: 43px;
+  margin-top: 50px; }
+
+article.facebook-entry h4 {
+  color: #282424;
+  padding-top: 5px; }
+
+article.facebook-entry h5 {
+  color: #f9a634;
+  padding-top: 10px; }
+
+article.facebook-entry h5 span {
+  color: #c2c1c0; }
+
+article.facebook-entry p {
+  padding-top: 10px;
+  font-size: 11px;
+  padding-right: 30px; }
+
+article p, .aside-box p {
+  font-size: 12px;
+  line-height: 1.4em; }
+
+article a {
+  font-size: 12px; }
+
+article h3 {
+  font-size: 18px;
+  color: #337ab7; }
+
+article hr,
+hr.article-hr {
+  margin-top: 0px;
+  margin-bottom: 0px; }
+
+.article-nav {
+  background: none; }
+
+ul.side-nav {
+  margin-left: -40px;
+  margin-top: 20px; }
+
+ul.side-nav li {
+  background: orange;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(orange, #f59211);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(orange, #f59211);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(orange, #f59211);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(orange, #f59211);
+  /* Standard syntax (must be last) */
+  padding: 10px;
+  margin-bottom: 1px; }
+
+ul.side-nav li a {
+  color: #ffffff;
+  font-size: 16px; }
+
+.dateText {
+  color: #f99b15; }
+
+.authorText {
+  color: #e4e2e3; }
+
+img.facebook-module,
+img.img-responsive {
+  width: 100%;
+  height: auto; }
+
+h2.get-involved-sidebar-heading {
+  margin-top: 115px;
+  font-size: 18px;
+  color: #337ab7; }
+
+h2.success-stories-sidebar-heading {
+  font-size: 18px;
+  color: #337ab7; }
+
+aside {
+  /*width: 291px;*/
+  /*margin-right: 12px;*/
+  float: right;
+  height: 294px; }
+
+aside h2.since1973 {
+  /*background: transparent url(../img/heading_since_1973.png) no-repeat;*/
+  /*width: 152px;*/
+  height: 42px;
+  margin: 16px 10px 0 140px;
+  padding: 10px;
+  position: inherit; }
+
+.aside-box img {
+  float: right;
+  margin-top: 8px; }
+
+.sidebar-background {
+  /*background-color: yellow;*/
+  box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 0px; }
+
+.bottom-donate-button {
+  margin-bottom: 20px; }
+
+footer {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 30px; }
+  footer p {
+    color: #ffffff;
+    font-size: 10px; }
+  footer h3 {
+    color: #ffffff;
+    font-size: 1.3em; }
+  footer section {
+    float: left;
+    margin-left: 20px;
+    margin-top: 16px;
+    /* logos in footer */ }
+    footer section li {
+      color: #ffffff;
+      line-height: 1.5em; }
+    footer section a {
+      color: #ffffff;
+      font-size: 11px; }
+    footer section .adp-logo {
+      position: absolute;
+      top: 25px;
+      left: 30px; }
+    footer section .cart-logo {
+      position: absolute;
+      top: 20px;
+      left: 135px; }
+    footer section .about-us-heading {
+      background: #233e5f url(../img/bg_about_us.png) no-repeat;
+      width: 166px;
+      height: 30px; }
+    footer section .services-heading {
+      background: #233e5f url(../img/bg_heading_services.jpg) no-repeat;
+      width: 166px;
+      height: 30px; }
+    footer section .wtgi-heading {
+      background: #233e5f url(../img/bg_heading_ways_tgi.png) no-repeat;
+      width: 166px;
+      height: 30px; }
+    footer section.services-spacing {
+      padding-left: 64px; }
+    footer section.wtgi-spacing {
+      padding-left: 54px; }
+    footer section.cert-logos-spacing {
+      padding-left: 30px;
+      margin-top: 0;
+      position: relative; }
+
+.bottom-well-margin {
+  margin-top: 0px; }
+
+.well {
+  margin-bottom: 0px; }
+
+.well-2 {
+  margin-top: 20px; }
+
+.well-2 {
+  background-color: #0a2646; }
+
+.well-2 h6 {
+  color: #fff;
+  background-color: #091f37;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px; }
+
+.well-2 li,
+.well-2 li a {
+  color: #fff; }
+
+.footer-border {
+  border-right: 1px solid #091f37; }
+
+.cert-logos {
+  margin-top: 16px; }
+
+/*
+footer section {
+    float: left;
+    margin-left: 20px;
+    margin-top: 16px;
+     }
+    footer section li {
+      color: #ffffff;
+      line-height: 1.5em; }
+    footer section a {
+      color: #ffffff;
+      font-size: 11px; }
+    footer section .adp-logo {
+      position: absolute;
+      top: 25px;
+      left: 30px; }
+    footer section .cart-logo {
+      position: absolute;
+      top: 20px;
+      left: 135px; }
+    footer section .about-us-heading {
+      background: #233e5f url(../img/bg_about_us.png) no-repeat;
+      width: 166px;
+      height: 30px; }
+    footer section .services-heading {
+      background: #233e5f url(../img/bg_heading_services.jpg) no-repeat;
+      width: 166px;
+      height: 30px; }
+    footer section .wtgi-heading {
+      background: #233e5f url(../img/bg_heading_ways_tgi.png) no-repeat;
+      width: 166px;
+      height: 30px; }
+    footer section.services-spacing {
+      padding-left: 64px; }
+    footer section.wtgi-spacing {
+      padding-left: 54px; }
+    footer section.cert-logos-spacing {
+      padding-left: 30px;
+      margin-top: 0;
+      position: relative; }
+}
+
+footer section li {
+    color: #ffffff;
+    line-height: 1.5em;
+}
+
+footer section a {
+    color: #ffffff;
+    font-size: 11px;
+}
+
+footer section .adp-logo {
+    position: absolute;
+    top: 25px;
+    left: 30px;
+}
+
+footer section .cart-logo {
+    position: absolute;
+    top: 20px;
+    left: 135px;
+}
+
+footer section .about-us-heading {
+    background: #233e5f url(../img/bg_about_us.png) no-repeat;
+    width: 166px;
+    height: 30px;
+}
+
+footer section .services-heading {
+    background: #233e5f url(../img/bg_heading_services.jpg) no-repeat;
+    width: 166px;
+    height: 30px;
+}
+
+footer section .wtgi-heading {
+    background: #233e5f url(../img/bg_heading_ways_tgi.png) no-repeat;
+    width: 166px;
+    height: 30px;
+}
+
+footer section.services-spacing {
+    padding-left: 64px;
+}
+
+footer section.wtgi-spacing {
+    padding-left: 54px;
+}
+
+footer section.cert-logos-spacing {
+    padding-left: 30px;
+    margin-top: 0;
+    position: relative;
+}
+
+.bottom-well-margin { margin-top: 0px; }
+
+.well { margin-bottom: 0px; }
+.well-2 { margin-top: 20px; }
+.well-2 { background-color: #0a2646; }
+.well-2 h6 {
+    color: #fff;
+    background-color: #091f37;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+.well-2 li,
+.well-2 li a { color: #fff; }
+
+.footer-border { border-right: 1px solid #091f37; }
+
+.cert-logos { margin-top: 16px; }
+*/
+/* For image replacement */
+.ir {
+  display: block;
+  text-indent: -999em;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  text-align: left;
+  direction: ltr; }
+
+/* Hide for both screenreaders and browsers:
+   css-discuss.incutio.com/wiki/Screenreader_Visibility */
+.hidden {
+  display: none;
+  visibility: hidden; }
+
+/* Hide only visually, but have it available for screenreaders: by Jon Neal.
+  www.webaim.org/techniques/css/invisiblecontent/  &  j.mp/visuallyhidden */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: drupal.org/node/897638 */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto; }
+
+/* Hide visually and from screenreaders, but maintain layout */
+.invisible {
+  visibility: hidden; }
+
+/* The Magnificent Clearfix: Updated to prevent margin-collapsing on child elements.
+   j.mp/bestclearfix */
+.clearfix:before,
+.clearfix:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  overflow: hidden; }
+
+.clearfix:after {
+  clear: both; }
+
+/* Fix clearfix: blueprintcss.lighthouseapp.com/projects/15318/tickets/5-extra-margin-padding-bottom-of-page */
+.clearfix {
+  zoom: 1; }
+
+/**
+ * Media queries for responsive design.
+ *
+ * These follow after primary styles so they will successfully override.
+ */
+@media all and (orientation: portrait) {
+  /* Style adjustments for portrait mode goes here */ }
+@media all and (orientation: landscape) {
+  /* Style adjustments for landscape mode goes here */ }
+/* Grade-A Mobile Browsers (Opera Mobile, Mobile Safari, Android Chrome)
+   consider this: www.cloudfour.com/css-media-query-for-mobile-is-fools-gold/ */
+@media screen and (max-device-width: 480px) {
+  /* Uncomment if you don't want iOS and WinMobile to mobile-optimize the text for you: j.mp/textsizeadjust */
+  /* html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; } */ }
+@media (max-width: 991px) {
+  .search-container {
+    display: none; } }
+@media (max-width: 767px) {
+  img.facebook-icon {
+    display: none; }
+
+  .donate {
+    display: none; }
+
+  .sidebar-background {
+    display: none; }
+
+  .footer-border {
+    border-right: none; }
+
+  .cert-logos {
+    text-align: center;
+    padding: 0px; } }
+/**
+ * Print styles.
+ *
+ * Inlined to avoid required HTTP connection: www.phpied.com/delay-loading-your-print-css/
+ */
+@media print {
+  * {
+    background: transparent !important;
+    color: black !important;
+    text-shadow: none !important;
+    filter: none !important;
+    -ms-filter: none !important; }
+
+  /* Black prints faster: sanbeiji.com/archives/953 */
+  a,
+  a:visited {
+    color: #444444 !important;
+    text-decoration: underline; }
+
+  a[href]:after {
+    content: " (" attr(href) ")"; }
+
+  abbr[title]:after {
+    content: " (" attr(title) ")"; }
+
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: ""; }
+
+  /* Don't show links for img, or javascript/internal links */
+  pre,
+  blockquote {
+    border: 1px solid #999999;
+    page-break-inside: avoid; }
+
+  thead {
+    display: table-header-group; }
+
+  /* css-discuss.incutio.com/wiki/Printing_Tables */
+  tr,
+  img {
+    page-break-inside: avoid; }
+
+  @page {
+    margin: 0.5cm; }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3; }
+
+  h2,
+  h3 {
+    page-break-after: avoid; } }
+
+/*# sourceMappingURL=style.css.map */
