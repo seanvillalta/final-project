@@ -147,8 +147,7 @@ aside h2.since1973 {
 /* MAIN NAV */
 nav {
   height: 72px;
-  background: #666666 url("../images/nav-bkg.jpg") repeat-x;
-  margin-top: -13px; }
+  background: #666666 url("../images/nav-bkg.jpg") repeat-x; }
 
 nav ul li {
   list-style: none;
