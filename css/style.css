@@ -156,70 +156,10 @@ nav ul li {
 nav ul {
   font-size: 11px; }
 
-nav .nav-home a {
-  position: absolute;
-  left: 105px;
-  top: 70px;
-  display: block;
-  width: 100px;
-  padding: 10px;
-  text-align: center; }
-
-nav .nav-about a {
-  position: absolute;
-  left: 240px;
-  top: 70px;
-  display: block;
-  width: 100px;
-  padding: 10px;
-  text-align: center; }
-
-nav .nav-service a {
-  position: absolute;
-  left: 385px;
-  top: 70px;
-  display: block;
-  width: 100px;
-  padding: 10px;
-  text-align: center; }
-
-nav .nav-addict a {
-  position: absolute;
-  left: 505px;
-  top: 70px;
-  display: block;
-  width: 160px;
-  padding: 10px;
-  text-align: center; }
-
-.ie9 nav .nav-addict a {
-  left: 535px; }
-
-nav .nav-appoint a {
-  position: absolute;
-  left: 655px;
-  top: 70px;
-  display: block;
-  width: 150px;
-  padding: 10px;
-  text-align: center; }
-
-.ie9 nav .nav-appoint a {
-  left: 673px; }
-
-nav .nav-contact a {
-  position: absolute;
-  left: 790px;
-  top: 70px;
-  display: block;
-  width: 150px;
-  padding: 10px;
-  text-align: center; }
-
 nav a {
   color: #515152;
   text-decoration: none;
-  display: block; }
+  float: left; }
 
 nav a:hover {
   color: #515152;
