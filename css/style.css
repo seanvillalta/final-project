@@ -320,21 +320,21 @@ footer section.cert-logos-spacing {
 .well {
   margin-bottom: 0px; }
 
-.well-2 {
+.well-bottom {
   margin-top: 20px; }
 
-.well-2 {
+.well-bottom {
   background-color: #0a2646; }
 
-.well-2 h6 {
+.well-bottom h6 {
   color: #fff;
   background-color: #091f37;
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 14px; }
 
-.well-2 li,
-.well-2 li a {
+.well-bottom li,
+.well-bottom li a {
   color: #fff; }
 
 .footer-border {
