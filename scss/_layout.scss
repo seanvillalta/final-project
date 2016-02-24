@@ -150,24 +150,31 @@ nav {
     background: #666666 url("../images/nav-bkg.jpg") repeat-x;
 }
 
-nav ul li {
+nav ul.main-nav {
+    font-size: 11px;
+}
+
+nav ul.main-nav li {
+    position: relative;
+    top: 25px;
     list-style: none;
     color: #ffffff;
 }
 
-nav ul {
-    font-size: 11px;
-}
-
-nav a {
+nav ul.main-nav li a {
     color: #515152;
     text-decoration: none;
     float: left;
+    padding-right: 8%;
 }
 
-nav a:hover {
+nav ul.main-nav li a:hover {
     color: #515152;
     letter-spacing: 0;
+}
+
+nav ul.main-nav li.nav-home {
+    padding-left: 153px;
 }
 
 /* HEADER */
