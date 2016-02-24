@@ -1,3 +1,16 @@
-body {
-	
-}
+// SMACSS division of styles - base, layout, modules, states and theme
+// base:    base styles like resets, element defaults, default font sizes, etc.
+// layout:  layout containers like header, footer, content, sidebar, etc.
+// modules: bulk of css is made up of independent modules and submodules
+// state:   states include active, pseudo-classes and @media queries
+// theme:   optional for pages that require theming
+@import "base";
+@import "layout";
+@import "modules";
+@import "states";
+@import "theme";
+
+
+
+
+/*# sourceMappingURL=style.css.map */
