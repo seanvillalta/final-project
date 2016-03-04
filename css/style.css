@@ -136,8 +136,19 @@ aside h2.since1973 {
   position: inherit; }
 
 .aside-box img {
-  float: right;
-  margin-top: 8px; }
+  float: left;
+  margin-top: 8px;
+  padding-right: 10px; }
+
+.aside-box .boxed {
+  background-color: #f3f2f2;
+  padding: 5px;
+  border: 1px solid #eee;
+  margin-bottom: 10px; }
+
+.boxed a {
+  text-decoration: underline;
+  color: #173f6b; }
 
 /* MAIN CONTENT */
 .main-content {
@@ -146,7 +157,7 @@ aside h2.since1973 {
   line-height: 1.4em; }
 
 .main-content p {
-  padding: 10px 0; }
+  padding: 10px; }
 
 /* TOP NAV */
 .top-nav {
