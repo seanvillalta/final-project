@@ -29,9 +29,9 @@ gulp.task('scripts', function() {
 // Image Optimization Tasks
 // ////////////////////////////////////////////////
 gulp.task('image', function() {
-    gulp.src('src-images/*')
+    gulp.src('images/*')
         .pipe(imagemin())
-        .pipe(gulp.dest('images'));
+        .pipe(gulp.dest('images-min'));
 });
 
 // ////////////////////////////////////////////////
