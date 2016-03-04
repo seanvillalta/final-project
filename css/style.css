@@ -1,6 +1,24 @@
 /* BASE STYLES */
 a {
-  outline: 0; }
+  outline: 0;
+  font-size: 12px;
+  color: #0c2745;
+  text-decoration: none; }
+
+a:hover {
+  color: #203e59;
+  text-decoration: none; }
+
+a:visited {
+  text-decoration: none;
+  color: #0c2745; }
+
+#active a {
+  color: #e07c28;
+  text-decoration: none; }
+
+#active a:hover {
+  color: #203e59; }
 
 *:focus {
   outline: none; }
@@ -14,21 +32,36 @@ body {
   font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   background-color: #233e5f;
   background-image: -webkit-linear-gradient(bottom, #233e5f, #1c2836);
-  background-image: linear-gradient(to top, #233e5f, #1c2836); }
+  background-image: linear-gradient(to top, #233e5f, #1c2836);
+  color: #6c6762; }
 
 li {
-  font-size: 11px; }
+  font-size: 11px;
+  margin-left: 20px; }
 
 h1 {
-  font-size: 26px; }
+  font-size: 26px;
+  font-family: serif; }
 
 h2 {
+  font-size: 24px;
+  padding-top: 15px;
+  color: #e07c28;
+  font-family: serif; }
+
+h3 {
   font-size: 24px; }
 
 img.facebook-module,
 img.img-responsive {
   width: 100%;
   height: auto; }
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 0;
+  border-top: 1px solid #eee; }
 
 /* ARTICLE */
 article.facebook-entry {
@@ -84,10 +117,12 @@ hr.article-hr {
   background: none; }
 
 .dateText {
-  color: #f99b15; }
+  color: #f99b15;
+  font-size: 11px; }
 
 .authorText {
-  color: #e4e2e3; }
+  color: #e4e2e3;
+  font-size: 11px; }
 
 /* ASIDE */
 aside {
@@ -105,8 +140,23 @@ aside h2.since1973 {
   position: inherit; }
 
 .aside-box img {
-  float: right;
-  margin-top: 8px; }
+  float: left;
+  margin-top: 8px;
+  padding-left: 10px; }
+
+.aside-box.boxed {
+  background-color: #f3f2f2;
+  padding: 5px;
+  border: 1px solid #eee;
+  margin-bottom: 10px; }
+
+a.moreinfo {
+  text-decoration: underline;
+  color: #173f6b;
+  float: right; }
+
+.boxed p {
+  overflow: hidden; }
 
 /* ASIDE MEDIA */
 .get-involved {
@@ -116,10 +166,10 @@ aside h2.since1973 {
 .main-content {
   float: left;
   background-color: #ffffff;
-  line-height: 1.4em; }
+  line-height: 1.5em; }
 
 .main-content p {
-  padding: 10px 0; }
+  padding: 10px; }
 
 /* TOP NAV */
 .top-nav {

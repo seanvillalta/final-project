@@ -65,10 +65,12 @@ hr.article-hr {
 
 .dateText {
     color: #f99b15;
+    font-size: 11px;
 }
 
 .authorText {
     color: #e4e2e3;
+    font-size: 11px;
 }
 
 /* ASIDE */
@@ -90,8 +92,26 @@ aside h2.since1973 {
 }
 
 .aside-box img {
-    float: right;
+    float: left;
     margin-top: 8px;
+    padding-left: 10px;
+}
+
+.aside-box.boxed {
+   background-color: #f3f2f2;
+   padding: 5px;
+   border: 1px solid #eee;
+   margin-bottom: 10px;
+}
+
+a.moreinfo {
+    text-decoration: underline;
+    color: #173f6b;
+    float: right;
+}
+
+.boxed p {
+    overflow: hidden;
 }
 
 /* ASIDE MEDIA */
@@ -106,11 +126,11 @@ aside h2.since1973 {
 .main-content {
     float: left;
     background-color: #ffffff;
-    line-height: 1.4em;
+    line-height: 1.5em;
 }
 
 .main-content p {
-    padding: 10px 0;
+    padding: 10px;
 }
 
 
