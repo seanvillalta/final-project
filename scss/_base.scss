@@ -18,7 +18,7 @@ a:visited {
   }
 
 #active a {
-    color: #d4740d;
+    color: #e07c28;
     text-decoration: none;
 }
 
@@ -51,10 +51,14 @@ li {
 
 h1 {
     font-size: 26px;
+    font-family: serif; 
 }
 
 h2 {
     font-size: 24px;
+    padding-top: 15px;
+    color: #e07c28;
+    font-family: serif; 
 }
 
 img.facebook-module,
