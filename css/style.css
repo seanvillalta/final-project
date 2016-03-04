@@ -32,7 +32,8 @@ body {
   font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   background-color: #233e5f;
   background-image: -webkit-linear-gradient(bottom, #233e5f, #1c2836);
-  background-image: linear-gradient(to top, #233e5f, #1c2836); }
+  background-image: linear-gradient(to top, #233e5f, #1c2836);
+  color: #6c6762; }
 
 li {
   font-size: 11px;
@@ -47,6 +48,9 @@ h2 {
   padding-top: 15px;
   color: #e07c28;
   font-family: serif; }
+
+h3 {
+  font-size: 24px; }
 
 img.facebook-module,
 img.img-responsive {
@@ -138,23 +142,27 @@ aside h2.since1973 {
 .aside-box img {
   float: left;
   margin-top: 8px;
-  padding-right: 10px; }
+  padding-left: 10px; }
 
-.aside-box .boxed {
+.aside-box.boxed {
   background-color: #f3f2f2;
   padding: 5px;
   border: 1px solid #eee;
   margin-bottom: 10px; }
 
-.boxed a {
+a.moreinfo {
   text-decoration: underline;
-  color: #173f6b; }
+  color: #173f6b;
+  float: right; }
+
+.boxed p {
+  overflow: hidden; }
 
 /* MAIN CONTENT */
 .main-content {
   float: left;
   background-color: #ffffff;
-  line-height: 1.4em; }
+  line-height: 1.5em; }
 
 .main-content p {
   padding: 10px; }

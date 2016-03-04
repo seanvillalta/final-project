@@ -42,6 +42,7 @@ body {
     background-color: #233e5f;
     background-image: -webkit-linear-gradient(bottom, #233e5f, #1c2836);
     background-image: linear-gradient(to top, #233e5f, #1c2836);
+    color: #6c6762;
 }
 
 li {
@@ -59,6 +60,10 @@ h2 {
     padding-top: 15px;
     color: #e07c28;
     font-family: serif; 
+}
+
+h3 {
+    font-size: 24px;
 }
 
 img.facebook-module,
