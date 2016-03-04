@@ -8,13 +8,24 @@ a {
 }
 
 a:hover {
-    color: #d4740d;
+    color: #203e59;
     text-decoration: none;
 }
 
 a:visited {
     text-decoration: none;
+    color: #0c2745;
   }
+
+#active a {
+    color: #d4740d;
+    text-decoration: none;
+}
+
+#active a:hover {
+    color: #203e59;
+}
+
 
 *:focus {
     outline: none;
@@ -35,6 +46,7 @@ body {
 
 li {
     font-size: 11px;
+    margin-left: 20px;
 }
 
 h1 {

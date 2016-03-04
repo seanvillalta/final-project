@@ -6,11 +6,19 @@ a {
   text-decoration: none; }
 
 a:hover {
-  color: #d4740d;
+  color: #203e59;
   text-decoration: none; }
 
 a:visited {
+  text-decoration: none;
+  color: #0c2745; }
+
+#active a {
+  color: #d4740d;
   text-decoration: none; }
+
+#active a:hover {
+  color: #203e59; }
 
 *:focus {
   outline: none; }
@@ -27,7 +35,8 @@ body {
   background-image: linear-gradient(to top, #233e5f, #1c2836); }
 
 li {
-  font-size: 11px; }
+  font-size: 11px;
+  margin-left: 20px; }
 
 h1 {
   font-size: 26px; }
