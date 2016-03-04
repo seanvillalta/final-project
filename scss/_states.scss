@@ -103,7 +103,8 @@
 @media (max-width: 991px) {
     .search-container {
         display: none;
-    }
+    }   
+
 }
 
 @media (max-width: 767px) {
@@ -123,6 +124,11 @@
         text-align: center;
         padding: 0px;
     }
+
+    .get-involved{
+        display: inline;
+    }
+
 }
 
 

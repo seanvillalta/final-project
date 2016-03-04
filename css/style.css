@@ -108,6 +108,10 @@ aside h2.since1973 {
   float: right;
   margin-top: 8px; }
 
+/* ASIDE MEDIA */
+.get-involved {
+  display: none; }
+
 /* MAIN CONTENT */
 .main-content {
   float: left;
@@ -456,7 +460,10 @@ h2.success-stories-sidebar-heading {
 
   .cert-logos {
     text-align: center;
-    padding: 0px; } }
+    padding: 0px; }
+
+  .get-involved {
+    display: inline; } }
 /**
  * Print styles.
  *
