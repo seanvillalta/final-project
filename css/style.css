@@ -1,6 +1,16 @@
 /* BASE STYLES */
 a {
-  outline: 0; }
+  outline: 0;
+  font-size: 12px;
+  color: #0c2745;
+  text-decoration: none; }
+
+a:hover {
+  color: #d4740d;
+  text-decoration: none; }
+
+a:visited {
+  text-decoration: none; }
 
 *:focus {
   outline: none; }
@@ -29,6 +39,12 @@ img.facebook-module,
 img.img-responsive {
   width: 100%;
   height: auto; }
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 0;
+  border-top: 1px solid #eee; }
 
 /* ARTICLE */
 article.facebook-entry {
