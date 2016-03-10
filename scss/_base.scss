@@ -39,7 +39,8 @@ a:visited {
 
 body {
     position: relative;
-    font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+    font-family: $helvetica; // Bourbon Font Stack
+    // @include background-image(linear-gradient(#233e5f, #1c2836)); // Compass Function
     background-color: #233e5f;
     background-image: -webkit-linear-gradient(bottom, #233e5f, #1c2836);
     background-image: linear-gradient(to top, #233e5f, #1c2836);
@@ -53,14 +54,14 @@ li {
 
 h1 {
     font-size: 26px;
-    font-family: serif; 
+    font-family: serif;
 }
 
 h2 {
     font-size: 24px;
     padding-top: 15px;
     color: #e07c28;
-    font-family: serif; 
+    font-family: serif;
 }
 
 h3 {

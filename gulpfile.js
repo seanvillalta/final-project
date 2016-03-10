@@ -2,15 +2,15 @@
 // Required
 // ////////////////////////////////////////////////
 
-var gulp = require('gulp'),
-    uglify = require('gulp-uglify'),
-    concat = require('gulp-concat'),
-    cleanCSS = require('gulp-clean-css'),
-    sourcemaps = require('gulp-sourcemaps'),
-    sass = require('gulp-sass'),
+var gulp        = require('gulp'),
+    uglify      = require('gulp-uglify'),
+    concat      = require('gulp-concat'),
+    cleanCSS    = require('gulp-clean-css'),
+    sourcemaps  = require('gulp-sourcemaps'),
+    sass        = require('gulp-sass'),
     browserSync = require('browser-sync').create(),
-    imagemin = require('gulp-imagemin'),
-    rename = require('gulp-rename');
+    imagemin    = require('gulp-imagemin'),
+    rename      = require('gulp-rename');
 
 // ////////////////////////////////////////////////
 // Scripts Task
