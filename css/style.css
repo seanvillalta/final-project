@@ -167,6 +167,14 @@ a.moreinfo {
   max-width: 238px;
   max-height: auto; }
 
+#active {
+  background-image: url(../images/donate-arrow.png);
+  background-repeat: no-repeat;
+  background-position: left; }
+
+#active a {
+  padding-left: 15px; }
+
 /* MAIN CONTENT */
 .main-content {
   float: left;
