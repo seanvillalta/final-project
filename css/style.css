@@ -504,7 +504,8 @@ h2.success-stories-sidebar-heading {
   .get-involved {
     display: inline; } 
    li{text-align: center;
-      margin-left: 0px;}}
+      margin-left: 0px;}
+    }
 
 /**
  * Print styles.
