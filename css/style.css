@@ -268,17 +268,20 @@ header .logo {
   width: 25px; }
 
 .breadcrumb {
-  padding: 0px 0px;
+  padding: 0px 5px;
   margin-bottom: 20px;
   list-style: none;
   background-color: #fff;
   border-radius: 0px;
   float: right; }
 
+.breadcrumb li {
+  margin-left: 0px; }
+
 .breadcrumb > li + li:before {
   padding: 0px 5px;
   color: #ccc;
-  content: ">\00a0"; }
+  content: ">"; }
 
 h1.main-header {
   float: left; }

@@ -254,7 +254,7 @@ header .logo {
 }
 
 .breadcrumb {
-    padding: 0px 0px;
+    padding: 0px 5px;
     margin-bottom: 20px;
     list-style: none;
     background-color: #fff;
@@ -262,10 +262,14 @@ header .logo {
     float: right;
 }
 
+.breadcrumb li {
+    margin-left: 0px;
+}
+
 .breadcrumb>li+li:before {
     padding: 0px 5px;
     color: #ccc;
-    content: ">\00a0";
+    content: ">";
 }
 
 h1.main-header {
