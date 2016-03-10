@@ -162,6 +162,11 @@ a.moreinfo {
 .get-involved {
   display: none; }
 
+.fbimg {
+  width: 100%;
+  max-width: 238px;
+  max-height: auto; }
+
 /* MAIN CONTENT */
 .main-content {
   float: left;
