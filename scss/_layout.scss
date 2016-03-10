@@ -139,10 +139,6 @@ a.moreinfo {
     background-position: left;
     }
 
-#active a {
-    padding-left: 15px;
-}
-
 
 /* MAIN CONTENT */
 
@@ -253,6 +249,25 @@ header .logo {
 .search-container .search-submit {
     margin: 5px 0 0 10px;
     width: 25px;
+}
+
+.breadcrumb {
+    padding: 0px 0px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: #fff;
+    border-radius: 0px;
+    float: right;
+}
+
+.breadcrumb>li+li:before {
+    padding: 0px 5px;
+    color: #ccc;
+    content: ">\00a0";
+}
+
+h1.main-header {
+    float: left;
 }
 
 /* FOOTER */
