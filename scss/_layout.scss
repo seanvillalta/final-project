@@ -133,11 +133,13 @@ a.moreinfo {
     max-height: auto;
 }
 
-#active {
-    background-image: url(../images/donate-arrow.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    }
+li#active {
+    padding-left: 5px; 
+}
+
+li#active:before {
+    content: url(../images/donate-arrow.png);
+}
 
 
 /* MAIN CONTENT */

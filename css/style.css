@@ -16,7 +16,7 @@ a:visited {
 #active a {
   color: #e07c28;
   text-decoration: none;
-  padding-left: 15px; }
+  padding-left: 8px; }
 
 #active a:hover {
   color: #203e59; }
@@ -174,10 +174,11 @@ a.moreinfo {
   max-width: 242px;
   max-height: auto; }
 
-#active {
-  background-image: url(../images/donate-arrow.png);
-  background-repeat: no-repeat;
-  background-position: left; }
+li#active {
+  padding-left: 5px; }
+
+li#active:before {
+  content: url(../images/donate-arrow.png); }
 
 /* MAIN CONTENT */
 .main-content {
