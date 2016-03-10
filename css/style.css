@@ -167,6 +167,12 @@ a.moreinfo {
   max-width: 238px;
   max-height: auto; }
 
+.donate-btn-btm img {
+  width: 100%;
+  align: center;
+  max-width: 242px;
+  max-height: auto; }
+
 #active {
   background-image: url(../images/donate-arrow.png);
   background-repeat: no-repeat;
