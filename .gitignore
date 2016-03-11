@@ -13,3 +13,10 @@ bower_components
 
 ### OSX ###
 .DS_Store
+
+### Gulp Generated Files ###
+
+css
+js
+*.min*
+images-min
