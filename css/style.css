@@ -524,7 +524,10 @@ h2.success-stories-sidebar-heading {
    consider this: www.cloudfour.com/css-media-query-for-mobile-is-fools-gold/ */
 @media (max-width: 1200px) {
   .search-container {
-    display: none; } }
+    display: none; } 
+    .aside-box p{
+      width: 100%;
+      }}
 
 @media (max-width: 767px) {
   img.facebook-icon {
@@ -539,7 +542,16 @@ h2.success-stories-sidebar-heading {
     text-align: center;
     padding: 0px; }
   .get-involved {
-    display: inline; } }
+    display: inline; } 
+  .aside-box p{
+      width: 80%;
+      }
+  .facebook-button{
+    display: none;
+    } 
+  li{
+    text-align: center;
+    } }
 
 /**
  * Print styles.
