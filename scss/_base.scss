@@ -20,6 +20,7 @@ a:visited {
 #active a {
     color: #e07c28;
     text-decoration: none;
+    padding-left: 8px;
 }
 
 #active a:hover {
@@ -39,7 +40,6 @@ a:visited {
 body {
     position: relative;
     font-family: $helvetica; // Bourbon Font Stack
-    // @include background-image(linear-gradient(#233e5f, #1c2836)); // Compass Function
     background-color: #233e5f;
     background-image: -webkit-linear-gradient(bottom, #233e5f, #1c2836);
     background-image: linear-gradient(to top, #233e5f, #1c2836);
@@ -48,7 +48,6 @@ body {
 
 li {
     font-size: 11px;
-    margin-left: 20px;
 }
 
 h1 {
@@ -71,6 +70,7 @@ img.facebook-module,
 img.img-responsive {
     width: 100%;
     height: auto;
+    @include border-radius(2px); // Compass CSS3 Mixin
 }
 
 hr {
@@ -78,4 +78,8 @@ hr {
   margin-bottom: 10px;
   border: 0;
   border-top: 1px solid #eee;
+}
+
+.navbar {
+    border-radius: 0px;
 }
