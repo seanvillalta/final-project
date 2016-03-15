@@ -1,237 +1,202 @@
 /* ARTICLE */
-
 article.facebook-entry {
     background: #2b2b2b url(../img/bg_facebook_post.png) no-repeat;
     width: 297px;
     height: 321px;
     float: right;
     margin-top: 5px;
+    h3 {
+        background: #ffffff url(../img/header_facebook.png) no-repeat;
+        width: 293px;
+        height: 43px;
+        margin-top: 50px;
+    }
+    h4 {
+        color: #282424;
+        padding-left: 30px;
+        padding-top: 5px;
+    }
+    h5 {
+        color: #f9a634;
+        padding-left: 30px;
+        padding-top: 10px;
+        span {
+            color: #c2c1c0;
+        }
+    }
+    p {
+        padding-left: 30px;
+        padding-top: 10px;
+        font-size: 11px;
+        padding-right: 30px;
+    }
 }
-
-article.facebook-entry h3 {
-    background: #ffffff url(../img/header_facebook.png) no-repeat;
-    width: 293px;
-    height: 43px;
-    margin-top: 50px;
+article {
+    p {
+        font-size: 12px;
+        line-height: 1.4em;
+    }
+    a {
+        font-size: 12px;
+    }
+    h3 {
+        font-size: 18px;
+        color: #337ab7;
+    }
+    hr {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
 }
-
-article.facebook-entry h4 {
-    color: #282424;
-    padding-left: 30px;
-    padding-top: 5px;
+.aside-box {
+    p {
+        font-size: 12px;
+        line-height: 1.4em;
+    }
+    img {
+        float: left;
+        margin-top: 8px;
+        padding-left: 10px;
+    }
 }
-
-article.facebook-entry h5 {
-    color: #f9a634;
-    padding-left: 30px;
-    padding-top: 10px;
-}
-
-article.facebook-entry h5 span {
-    color: #c2c1c0;
-}
-
-article.facebook-entry p {
-    padding-left: 30px;
-    padding-top: 10px;
-    font-size: 11px;
-    padding-right: 30px;
-}
-
-article p,
-.aside-box p {
-    font-size: 12px;
-    line-height: 1.4em;
-}
-
-article a {
-    font-size: 12px;
-}
-
-article h3 {
-    font-size: 18px;
-    color: #337ab7;
-}
-
-article hr,
 hr.article-hr {
     margin-top: 0px;
     margin-bottom: 0px;
 }
-
 .article-nav {
     background: none;
 }
-
 .dateText {
     color: #f99b15;
     font-size: 11px;
 }
-
 .authorText {
     color: #e4e2e3;
     font-size: 11px;
 }
-
 /* ASIDE */
-
 aside {
     width: 291px;
     margin-right: 12px;
     float: right;
     height: 294px;
+    h2.since1973 {
+        background: transparent url(../img/heading_since_1973.png) no-repeat;
+        width: 152px;
+        height: 42px;
+        margin: 16px 10px 0 140px;
+        padding: 10px;
+        position: inherit;
+    }
 }
-
-aside h2.since1973 {
-    background: transparent url(../img/heading_since_1973.png) no-repeat;
-    width: 152px;
-    height: 42px;
-    margin: 16px 10px 0 140px;
-    padding: 10px;
-    position: inherit;
-}
-
-.aside-box img {
-    float: left;
-    margin-top: 8px;
-    padding-left: 10px;
-}
-
 .aside-box.boxed {
-   background-color: #f3f2f2;
-   padding: 5px;
-   border: 1px solid #eee;
-   margin-bottom: 10px;
+    background-color: #f3f2f2;
+    padding: 5px;
+    border: 1px solid #eee;
+    margin-bottom: 10px;
 }
-
 a.moreinfo {
     text-decoration: underline;
     color: #173f6b;
     float: right;
 }
-
-.boxed p {
-    overflow: hidden;
+.boxed {
+    p {
+        overflow: hidden;
+    }
 }
-
 /* ASIDE MEDIA */
-
-.get-involved{
+.get-involved {
     display: none;
 }
-
 .fbimg {
     width: 100%;
     max-width: 238px;
     max-height: auto;
 }
-
-.donate-btn-btm img {
-    width: 100%;
-    align: center;
-    max-width: 242px;
-    max-height: auto;
-    padding-bottom: 20px;
+.donate-btn-btm {
+    img {
+        width: 100%;
+        align: center;
+        max-width: 242px;
+        max-height: auto;
+        padding-bottom: 20px;
+    }
 }
-
 li#active {
     padding-left: 5px;
+    &:before {
+        content: url(../images/donate-arrow.png);
+    }
 }
-
-li#active:before {
-    content: url(../images/donate-arrow.png);
-}
-
-
 /* MAIN CONTENT */
-
 .main-content {
     float: left;
     background-color: #ffffff;
     line-height: 1.5em;
+    p {
+        padding: 10px;
+    }
 }
-
-.main-content p {
-    padding: 10px;
-}
-
 p.remove-left-padding {
     padding: 10px 10px 10px 0px;
 }
-
-
 /* TOP NAV */
-
 .top-nav {
     font-size: .9em;
     padding-left: 125px;
+    li {
+        padding-top: 25px;
+        float: left;
+    }
+    span {
+        padding: 0 10px;
+        color: #ffffff;
+    }
+    a {
+        color: #ffffff;
+        text-decoration: none;
+    }
 }
-
-.top-nav li {
-    padding-top: 25px;
-    float: left;
-}
-
-.top-nav span {
-    padding: 0 10px;
-    color: #ffffff;
-}
-
-.top-nav a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-
 /* MAIN NAV */
-
 nav {
     margin: 0 auto;
     background-color: white;
 }
-
 .navbar-nav {
-  width: 100%;
-  text-align: center;
-  > li {
-    float: none;
+    width: 100%;
+    text-align: center;
+    > li { float: none;
     display: inline-block;
-  }
+    }
 }
-
 /* HEADER */
-
 header {
     position: relative;
     background-color: #666666;
+    .facebook-icon {
+        position: absolute;
+        top: 10px;
+        left: 355px;
+        padding: 9px 10px 0 15px;
+    }
+    .donate {
+        position: absolute;
+        top: 17px;
+        right: 0;
+    }
+    .logo {
+        position: absolute;
+        top: -48px;
+        left: 10px;
+        z-index: 99;
+    }
 }
-
-header .facebook-icon {
-    position: absolute;
-    top: 10px;
-    left: 355px;
-    padding: 9px 10px 0 15px;
-}
-
-header .donate {
-    position: absolute;
-    top: 17px;
-    right: 0;
-}
-
-header .logo {
-    position: absolute;
-    top: -48px;
-    left: 10px;
-    z-index: 99;
-}
-
 .misc-items {
     height: 56px;
     background-color: #0c2745;
     position: relative;
 }
-
 .search-container {
     position: absolute;
     top: 15px;
@@ -240,24 +205,21 @@ header .logo {
     background: transparent url("../images/search-box.png") no-repeat;
     width: 258px;
     height: 37px;
+    .search-input {
+        background-color: transparent;
+        border: medium none;
+        color: #999999;
+        float: left;
+        font-size: 0.9em;
+        height: auto;
+        margin: 8px 5px 0px 12px;
+        width: 185px;
+    }
+    .search-submit {
+        margin: 5px 0 0 10px;
+        width: 25px;
+    }
 }
-
-.search-container .search-input {
-    background-color: transparent;
-    border: medium none;
-    color: #999999;
-    float: left;
-    font-size: 0.9em;
-    height: auto;
-    margin: 8px 5px 0px 12px;
-    width: 185px;
-}
-
-.search-container .search-submit {
-    margin: 5px 0 0 10px;
-    width: 25px;
-}
-
 .breadcrumb {
     padding: 0px 5px;
     margin-bottom: 20px;
@@ -265,184 +227,130 @@ header .logo {
     background-color: #fff;
     border-radius: 0px;
     float: right;
+    li {
+        margin-left: 0px;
+    }
+    >li+li {
+        &:before {
+            padding: 0px 5px;
+            color: #ccc;
+            content: ">";
+        }
+    }
 }
-
-.breadcrumb li {
-    margin-left: 0px;
-}
-
-.breadcrumb>li+li:before {
-    padding: 0px 5px;
-    color: #ccc;
-    content: ">";
-}
-
 h1.main-header {
     float: left;
 }
-
 /* FOOTER */
-
 footer {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 30px;
+    p {
+        color: #ffffff;
+        font-size: 10px;
+    }
+    section {
+        float: left;
+        margin-left: 20px;
+        margin-top: 16px;
+        li {
+            color: #ffffff;
+            line-height: 1.5em;
+            color: #ffffff;
+            line-height: 1.5em;
+        }
+        a {
+            color: #ffffff;
+            font-size: 11px;
+            color: #ffffff;
+            font-size: 11px;
+        }
+        .adp-logo {
+            position: absolute;
+            top: 25px;
+            left: 30px;
+            position: absolute;
+            top: 25px;
+            left: 30px;
+        }
+        .cart-logo {
+            position: absolute;
+            top: 20px;
+            left: 135px;
+            position: absolute;
+            top: 20px;
+            left: 135px;
+        }
+        .about-us-heading {
+            background: #233e5f url(../img/bg_about_us.png) no-repeat;
+            width: 166px;
+            height: 30px;
+            background: #233e5f url(../img/bg_about_us.png) no-repeat;
+            width: 166px;
+            height: 30px;
+        }
+        .services-heading {
+            background: #233e5f url(../img/bg_heading_services.jpg) no-repeat;
+            width: 166px;
+            height: 30px;
+            background: #233e5f url(../img/bg_heading_services.jpg) no-repeat;
+            width: 166px;
+            height: 30px;
+        }
+        .wtgi-heading {
+            background: #233e5f url(../img/bg_heading_ways_tgi.png) no-repeat;
+            width: 166px;
+            height: 30px;
+            background: #233e5f url(../img/bg_heading_ways_tgi.png) no-repeat;
+            width: 166px;
+            height: 30px;
+        }
+    }
+    section.services-spacing {
+        padding-left: 64px;
+        padding-left: 64px;
+    }
+    section.wtgi-spacing {
+        padding-left: 54px;
+        padding-left: 54px;
+    }
+    section.cert-logos-spacing {
+        padding-left: 30px;
+        margin-top: 0;
+        position: relative;
+        padding-left: 30px;
+        margin-top: 0;
+        position: relative;
+    }
 }
-
-footer p {
-    color: #ffffff;
-    font-size: 10px;
-}
-
-footer section {
-    float: left;
-    margin-left: 20px;
-    margin-top: 16px;
-}
-
-footer section li {
-    color: #ffffff;
-    line-height: 1.5em;
-}
-
-footer section a {
-    color: #ffffff;
-    font-size: 11px;
-}
-
-footer section .adp-logo {
-    position: absolute;
-    top: 25px;
-    left: 30px;
-}
-
-footer section .cart-logo {
-    position: absolute;
-    top: 20px;
-    left: 135px;
-}
-
-footer section .about-us-heading {
-    background: #233e5f url(../img/bg_about_us.png) no-repeat;
-    width: 166px;
-    height: 30px;
-}
-
-footer section .services-heading {
-    background: #233e5f url(../img/bg_heading_services.jpg) no-repeat;
-    width: 166px;
-    height: 30px;
-}
-
-footer section .wtgi-heading {
-    background: #233e5f url(../img/bg_heading_ways_tgi.png) no-repeat;
-    width: 166px;
-    height: 30px;
-}
-
-footer section.services-spacing {
-    padding-left: 64px;
-}
-
-footer section.wtgi-spacing {
-    padding-left: 54px;
-}
-
-footer section.cert-logos-spacing {
-    padding-left: 30px;
-    margin-top: 0;
-    position: relative;
-}
-
-footer section li {
-    color: #ffffff;
-    line-height: 1.5em;
-}
-
-footer section a {
-    color: #ffffff;
-    font-size: 11px;
-}
-
-footer section .adp-logo {
-    position: absolute;
-    top: 25px;
-    left: 30px;
-}
-
-footer section .cart-logo {
-    position: absolute;
-    top: 20px;
-    left: 135px;
-}
-
-footer section .about-us-heading {
-    background: #233e5f url(../img/bg_about_us.png) no-repeat;
-    width: 166px;
-    height: 30px;
-}
-
-footer section .services-heading {
-    background: #233e5f url(../img/bg_heading_services.jpg) no-repeat;
-    width: 166px;
-    height: 30px;
-}
-
-footer section .wtgi-heading {
-    background: #233e5f url(../img/bg_heading_ways_tgi.png) no-repeat;
-    width: 166px;
-    height: 30px;
-}
-
-footer section.services-spacing {
-    padding-left: 64px;
-}
-
-footer section.wtgi-spacing {
-    padding-left: 54px;
-}
-
-footer section.cert-logos-spacing {
-    padding-left: 30px;
-    margin-top: 0;
-    position: relative;
-}
-
 /* BOTTOM WELL */
-
 .bottom-well-margin {
     margin-top: 0px;
 }
-
 .well {
     margin-bottom: 0px;
 }
-
 .well-bottom {
     margin-top: 20px;
-}
-
-.well-bottom {
     background-color: #0a2646;
+    h6 {
+        color: #fff;
+        background-color: #091f37;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 14px;
+    }
+    li {
+        color: #fff;
+        a {
+            color: #fff;
+        }
+    }
 }
-
-.well-bottom h6 {
-    color: #fff;
-    background-color: #091f37;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 14px;
-}
-
-.well-bottom li,
-.well-bottom li a {
-    color: #fff;
-}
-
 .footer-border {
     border-right: 1px solid #091f37;
 }
-
 .cert-logos {
     margin-top: 16px;
 }
