@@ -3,15 +3,15 @@ ul.side-nav {
     margin-left: -40px;
     margin-top: 20px;
     li {
-        background: orange;
-        background: -webkit-linear-gradient(orange, #f59211);
-        background: -o-linear-gradient(orange, #f59211);
-        background: -moz-linear-gradient(orange, #f59211);
-        background: linear-gradient(orange, #f59211);
+        background: $orange;
+        background: -webkit-linear-gradient($orange, $gamboge);
+        background: -o-linear-gradient($orange, $gamboge);
+        background: -moz-linear-gradient($orange, $gamboge);
+        background: linear-gradient($orange, $gamboge);
         padding: 10px;
         margin-bottom: 1px;
         a {
-            color: #ffffff;
+            color: $white;
             font-size: 16px;
         }
     }

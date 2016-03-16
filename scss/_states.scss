@@ -104,10 +104,10 @@
         -ms-filter: none !important;
     }
     a {
-        color: #444444 !important;
+        color: $tundora !important;
         text-decoration: underline;
         &:visited {
-            color: #444444 !important;
+            color: $tundora !important;
             text-decoration: underline;
         }
     }
@@ -139,11 +139,11 @@
         }
     }
     pre {
-        border: 1px solid #999999;
+        border: 1px solid $dusty-gray;
         page-break-inside: avoid;
     }
     blockquote {
-        border: 1px solid #999999;
+        border: 1px solid $dusty-gray;
         page-break-inside: avoid;
     }
     thead {

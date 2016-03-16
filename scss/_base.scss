@@ -2,24 +2,24 @@
 a {
     outline: 0;
     font-size: 12px;
-    color: #0c2745;
+    color: $blue-zodiac;
     text-decoration: none;
     &:hover {
-        color: #203e59;
+        color: $cello-light;
         text-decoration: none;
     }
     &:visited {
         text-decoration: none;
-        color: #0c2745;
+        color: $blue-zodiac;
     }
 }
 #active {
     a {
-        color: #e07c28;
+        color: $zest;
         text-decoration: none;
         padding-left: 8px;
         &:hover {
-            color: #203e59;
+            color: $cello-light;
         }
     }
 }
@@ -33,10 +33,10 @@ a {
 body {
     position: relative;
     font-family: $helvetica; // Bourbon Font Stack
-    background: #233e5f; // for browsers that do not support gradients
-    background: -webkit-linear-gradient(bottom, #233e5f, #1c2836); // CCS3 Gradient
-    background: linear-gradient(to top, #233e5f, #1c2836); // CCS3 Gradient
-    color: #6c6762;
+    background: $cello-dark; // for browsers that do not support gradients
+    background: -webkit-linear-gradient(bottom, $cello-dark, $mirage); // CCS3 Gradient
+    background: linear-gradient(to top, $cello-dark, $mirage); // CCS3 Gradient
+    color: $flint;
 }
 li {
     font-size: 11px;
@@ -48,7 +48,7 @@ h1 {
 h2 {
     font-size: 24px;
     padding-top: 15px;
-    color: #e07c28;
+    color: $zest;
     font-family: serif;
 }
 h3 {

@@ -1,27 +1,27 @@
 /* ARTICLE */
 article.facebook-entry {
-    background: #2b2b2b url(../img/bg_facebook_post.png) no-repeat;
+    background: $mine-shaft-light url(../img/bg_facebook_post.png) no-repeat;
     width: 297px;
     height: 321px;
     float: right;
     margin-top: 5px;
     h3 {
-        background: #ffffff url(../img/header_facebook.png) no-repeat;
+        background: $white url(../img/header_facebook.png) no-repeat;
         width: 293px;
         height: 43px;
         margin-top: 50px;
     }
     h4 {
-        color: #282424;
+        color: $mine-shaft-dark;
         padding-left: 30px;
         padding-top: 5px;
     }
     h5 {
-        color: #f9a634;
+        color: $sea-buckthorn;
         padding-left: 30px;
         padding-top: 10px;
         span {
-            color: #c2c1c0;
+            color: $cloud;
         }
     }
     p {
@@ -41,7 +41,7 @@ article {
     }
     h3 {
         font-size: 18px;
-        color: #337ab7;
+        color: $astral;
     }
     hr {
         margin-top: 0px;
@@ -67,11 +67,11 @@ hr.article-hr {
     background: none;
 }
 .dateText {
-    color: #f99b15;
+    color: $tree-poppy;
     font-size: 11px;
 }
 .authorText {
-    color: #e4e2e3;
+    color: $bon-jour;
     font-size: 11px;
 }
 /* ASIDE */
@@ -90,14 +90,14 @@ aside {
     }
 }
 .aside-box.boxed {
-    background-color: #f3f2f2;
+    background-color: $concrete;
     padding: 5px;
-    border: 1px solid #eee;
+    border: 1px solid $gallery;
     margin-bottom: 10px;
 }
 a.moreinfo {
     text-decoration: underline;
-    color: #173f6b;
+    color: $chathams-blue;
     float: right;
 }
 .boxed {
@@ -132,7 +132,7 @@ li#active {
 /* MAIN CONTENT */
 .main-content {
     float: left;
-    background-color: #ffffff;
+    background-color: $white;
     line-height: 1.5em;
     p {
         padding: 10px;
@@ -151,17 +151,17 @@ p.remove-left-padding {
     }
     span {
         padding: 0 10px;
-        color: #ffffff;
+        color: $white;
     }
     a {
-        color: #ffffff;
+        color: $white;
         text-decoration: none;
     }
 }
 /* MAIN NAV */
 nav {
     margin: 0 auto;
-    background-color: white;
+    background-color: $white;
 }
 .navbar-nav {
     width: 100%;
@@ -173,7 +173,7 @@ nav {
 /* HEADER */
 header {
     position: relative;
-    background-color: #666666;
+    background-color: $dove-gray;
     .facebook-icon {
         position: absolute;
         top: 10px;
@@ -194,7 +194,7 @@ header {
 }
 .misc-items {
     height: 56px;
-    background-color: #0c2745;
+    background-color: $blue-zodiac;
     position: relative;
 }
 .search-container {
@@ -208,7 +208,7 @@ header {
     .search-input {
         background-color: transparent;
         border: medium none;
-        color: #999999;
+        color: $dusty-gray;
         float: left;
         font-size: 0.9em;
         height: auto;
@@ -224,7 +224,7 @@ header {
     padding: 0px 5px;
     margin-bottom: 20px;
     list-style: none;
-    background-color: #fff;
+    background-color: $white;
     border-radius: 0px;
     float: right;
     li {
@@ -233,7 +233,7 @@ header {
     >li+li {
         &:before {
             padding: 0px 5px;
-            color: #ccc;
+            color: $silver;
             content: ">";
         }
     }
@@ -247,7 +247,7 @@ footer {
     padding-top: 10px;
     padding-bottom: 30px;
     p {
-        color: #ffffff;
+        color: $white;
         font-size: 10px;
     }
     section {
@@ -255,15 +255,15 @@ footer {
         margin-left: 20px;
         margin-top: 16px;
         li {
-            color: #ffffff;
+            color: $white;
             line-height: 1.5em;
-            color: #ffffff;
+            color: $white;
             line-height: 1.5em;
         }
         a {
-            color: #ffffff;
+            color: $white;
             font-size: 11px;
-            color: #ffffff;
+            color: $white;
             font-size: 11px;
         }
         .adp-logo {
@@ -283,26 +283,26 @@ footer {
             left: 135px;
         }
         .about-us-heading {
-            background: #233e5f url(../img/bg_about_us.png) no-repeat;
+            background: $cello-dark url(../img/bg_about_us.png) no-repeat;
             width: 166px;
             height: 30px;
-            background: #233e5f url(../img/bg_about_us.png) no-repeat;
+            background: $cello-dark url(../img/bg_about_us.png) no-repeat;
             width: 166px;
             height: 30px;
         }
         .services-heading {
-            background: #233e5f url(../img/bg_heading_services.jpg) no-repeat;
+            background: $cello-dark url(../img/bg_heading_services.jpg) no-repeat;
             width: 166px;
             height: 30px;
-            background: #233e5f url(../img/bg_heading_services.jpg) no-repeat;
+            background: $cello-dark url(../img/bg_heading_services.jpg) no-repeat;
             width: 166px;
             height: 30px;
         }
         .wtgi-heading {
-            background: #233e5f url(../img/bg_heading_ways_tgi.png) no-repeat;
+            background: $cello-dark url(../img/bg_heading_ways_tgi.png) no-repeat;
             width: 166px;
             height: 30px;
-            background: #233e5f url(../img/bg_heading_ways_tgi.png) no-repeat;
+            background: $cello-dark url(../img/bg_heading_ways_tgi.png) no-repeat;
             width: 166px;
             height: 30px;
         }
@@ -333,23 +333,23 @@ footer {
 }
 .well-bottom {
     margin-top: 20px;
-    background-color: #0a2646;
+    background-color: $downriver;
     h6 {
-        color: #fff;
-        background-color: #091f37;
+        color: $white;
+        background-color: $black-pearl;
         padding-top: 10px;
         padding-bottom: 10px;
         font-size: 14px;
     }
     li {
-        color: #fff;
+        color: $white;
         a {
-            color: #fff;
+            color: $white;
         }
     }
 }
 .footer-border {
-    border-right: 1px solid #091f37;
+    border-right: 1px solid $black-pearl;
 }
 .cert-logos {
     margin-top: 16px;
