@@ -73,6 +73,7 @@ hr.article-hr {
     font-size: 11px;
 }
 
+
 /* ASIDE */
 
 aside {
@@ -98,10 +99,10 @@ aside h2.since1973 {
 }
 
 .aside-box.boxed {
-   background-color: #f3f2f2;
-   padding: 5px;
-   border: 1px solid #eee;
-   margin-bottom: 10px;
+    background-color: #f3f2f2;
+    padding: 5px;
+    border: 1px solid #eee;
+    margin-bottom: 10px;
 }
 
 a.moreinfo {
@@ -114,9 +115,10 @@ a.moreinfo {
     overflow: hidden;
 }
 
+
 /* ASIDE MEDIA */
 
-.get-involved{
+.get-involved {
     display: none;
 }
 
@@ -156,7 +158,7 @@ li#active:before {
 }
 
 li#active {
-    padding-left: 5px; 
+    padding-left: 5px;
 }
 
 li#active:before {
@@ -212,13 +214,22 @@ nav {
 }
 
 .navbar-nav {
-  width: 100%;
-  text-align: center;
-  > li {
-    float: none;
-    display: inline-block;
-  }
+    width: 100%;
+    text-align: center;
+    > li {
+        float: none;
+        display: inline-block;
+    }
 }
+
+@media screen and (max-width: 768px) {
+    .navbar-nav {
+        > li {
+            display: block;
+        }
+    }
+}
+
 
 /* HEADER */
 
@@ -301,6 +312,7 @@ header .logo {
 h1.main-header {
     float: left;
 }
+
 
 /* FOOTER */
 
@@ -428,6 +440,7 @@ footer section.cert-logos-spacing {
     margin-top: 0;
     position: relative;
 }
+
 
 /* BOTTOM WELL */
 
