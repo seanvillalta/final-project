@@ -124,11 +124,11 @@ a.moreinfo {
         padding-bottom: 20px;
     }
 }
-li#active {
-    padding-left: 5px;
-    &:before {
-        content: url(../images/donate-arrow.png);
-    }
+// Override FontAwesome default position
+.fa-li {
+    position: relative;
+    top: 0px;
+    left: 0px;
 }
 /* MAIN CONTENT */
 .main-content {
