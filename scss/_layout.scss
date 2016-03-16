@@ -262,6 +262,22 @@ header .logo {
     top: -48px;
     left: 10px;
     z-index: 99;
+    // position: relative;
+    -webkit-animation: mymove 1.2s; /* Chrome, Safari, Opera */
+    animation: mymove 1.2s;
+    animation-timing-function: ease;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    from {top: -300px;}
+    to {bottom: 0px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    from {top: -300px;}
+    to {bottom: 0px;}
 }
 
 .misc-items {
