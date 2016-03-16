@@ -329,6 +329,10 @@ footer {
 .bottom-well-margin {
     margin-top: 0px;
 }
+// Sass placeholder example
+%well-text-color {
+    color: $white;
+}
 .well {
     margin-bottom: 0px;
 }
@@ -336,16 +340,16 @@ footer {
     margin-top: 20px;
     background-color: $downriver;
     h6 {
-        color: $white;
+        @extend %well-text-color;
         background-color: $black-pearl;
         padding-top: 10px;
         padding-bottom: 10px;
         font-size: 14px;
     }
     li {
-        color: $white;
+        @extend %well-text-color;
         a {
-            color: $white;
+            @extend %well-text-color;
         }
     }
 }
