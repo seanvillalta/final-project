@@ -90,7 +90,8 @@ aside {
     }
 }
 .aside-box.boxed {
-    background-color: $concrete;
+    // background-color: $concrete;
+    background-color: tint($concrete, 10%); // Sass Function
     padding: 5px;
     border: 1px solid $gallery;
     margin-bottom: 10px;
