@@ -245,6 +245,12 @@ header .facebook-icon {
     padding: 9px 10px 0 15px;
 }
 
+@media screen and (max-width: 535px) {
+    .facebook-icon {
+        display: none;
+    }
+}
+
 header .donate {
     position: absolute;
     top: 17px;
