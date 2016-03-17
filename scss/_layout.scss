@@ -191,7 +191,6 @@ nav {
 /* HEADER */
 header {
     position: relative;
-
     background-color: #666666;
 }
 
@@ -235,7 +234,10 @@ header .logo {
 @keyframes mymove {
     from {top: -300px;}
     to {bottom: 0px;}
+}
 
+header {
+    position: relative;
     background-color: $dove-gray;
     .facebook-icon {
         position: absolute;
