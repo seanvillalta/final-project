@@ -8,6 +8,33 @@
 // state:   states include active, pseudo-classes and @media queries
 // theme:   optional for pages that require theming
 
+// Sass variables for colors
+$blue-zodiac: #0c2745;
+$cello-light: #203e59;
+$zest: #e07c28;
+$cello-dark: #233e5f;
+$mirage: #1c2836;
+$flint: #6c6762;
+$mine-shaft-light: #2b2b2b;
+$white: #ffffff;
+$mine-shaft-dark: #282424;
+$sea-buckthorn: #f9a634;
+$cloud: #c2c1c0;
+$astral: #337ab7;
+$tree-poppy: #f99b15;
+$bon-jour: #e4e2e3;
+$concrete: #f3f2f2;
+$chathams-blue: #173f6b;
+$dove-gray: #666666;
+$dusty-gray: #999999;
+$silver: #cccccc;
+$downriver: #0a2646;
+$black-pearl: #091f37;
+$gallery: #eeeeee;
+$orange: #ff681f;
+$gamboge: #f59211;
+$tundora: #444444;
+
 @import "base";
 @import "layout";
 @import "modules";
