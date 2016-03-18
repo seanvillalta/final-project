@@ -1,7 +1,32 @@
 # GWDA313 Emerging Technologies – Final Project
 
 ### Summary
-* The purpose of this branch is to tweak and override the bootstrap default styling and layouts, as well as clean up any labels that do not meet the requirements listed here: <https://github.com/kingluddite/emerging-technologies-final-project>
+* The purpose of this group project was to create a website using Git as basis for team collaboration. 
+* This project utilizes a variety of emerging technologies including:
+  * Git
+  * Twitter Bootstrap
+  * Normalize.css
+  * HTML5 Boilerplate
+  * Sass
+  * Bourbon
+  * Compass
+  * Sass Functions
+  * Sass Mixins
+  * Sass Placeholders
+  * Sass Sourcemaps
+  * Sass Variables
+  * Node Package Manager (NPM)
+  * Bower
+  * FontAwesome
+  * HTML5 Canvas
+  * CSS3 Gradients
+  * Responsive navigation and layout
+  * Package.json
+  * Media Queries
+  * Gulp
+  * Gulp-size module
+  * SMACSS structure
+  * JavaScript and CSS file consolidation
 
 ### Installation Process
 * Clone repository URL in Git
