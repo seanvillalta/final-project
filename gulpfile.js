@@ -45,10 +45,10 @@ gulp.task('compass', function(){
 // Image Optimization and Gulp-Size Tasks
 // ////////////////////////////////////////////////
 gulp.task('image', function(){
-    gulp.src('images/*')
+    gulp.src('images-src/*')
     .pipe(imagemin())
     .pipe(size())
-    .pipe(gulp.dest('images-min'));
+    .pipe(gulp.dest('images'));
 });
 
 // ////////////////////////////////////////////////
