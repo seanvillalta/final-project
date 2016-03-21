@@ -68,14 +68,14 @@
     zoom: 1;
 }
 /* Media queries for responsive design. */
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   .search-container {
-    display: none; } 
+    display: none; }
     .aside-box p{
       width: 100%;
       }}
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   img.facebook-icon {
     display: none; }
   .donate {
@@ -88,16 +88,26 @@
     text-align: center;
     padding: 0px; }
   .get-involved {
-    display: inline; } 
+    display: inline; }
   .aside-box p{
       width: 80%;
       }
   .facebook-button{
     display: none;
-    } 
+    }
   li{
     text-align: center;
     } }
+
+/* Responsive Nav */
+@media screen and (max-width: 767px) {
+    .navbar-nav {
+        > li {
+            display: block;
+        }
+    }
+}
+
 /* Print styles. Inlined to avoid required HTTP connection: www.phpied.com/delay-loading-your-print-css/ */
 @media print {
     * {
