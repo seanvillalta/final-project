@@ -16,7 +16,7 @@ bower_components
 
 ### Gulp Generated Files ###
 
-css
-js
+css/
+js/
 *.min*
-images-min
+images/
