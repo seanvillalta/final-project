@@ -28,6 +28,12 @@
   * SMACSS structure
   * JavaScript and CSS file consolidation
 
+### Staging Site
+<http://et-final.jayevanjohnson.com>
+
+### Production Site
+<http://seanvillalta.com/et-final>
+
 ### Installation Process
 * Clone repository URL in Git
 * In the Terminal app, change to Desktop directory 
